@@ -1,0 +1,336 @@
+************************************************************************
+ DISTINCT ENTRY COUNT FROM INPUT STREAM
+************************************************************************
+------------------------------------------------------------------------
+ Analysis: meta_reag.oracleGeneral.zst
+ Distinct Entry Calculation... 
+ 12262537 Distinct Entries Found!
+------------------------------------------------------------------------
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 6131 (PERCENTAGE: 0.05%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 45623306 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 25101441           | 20521865           | 55.02      % |2.60           
+LFU-k        | 19995646           | 25627660           | 43.83      % |4.93           
+LFU          | 16688634           | 28934672           | 36.58      % |5.70           
+OPT          | 28059439           | 17563867           | 61.50      % |4.79           
+LRFU         | 16127001           | 29496305           | 35.35      % |4.19           
+LIRS         | 25032568           | 20590738           | 54.87      % |5.69           
+2Q           | 25784925           | 19838381           | 56.52      % |5.14           
+ARC          | 25496361           | 20126945           | 55.88      % |4.52           
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 61312 (PERCENTAGE: 0.5%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 45623306 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 27428830           | 18194476           | 60.12      % |6.20           
+LFU-k        | 21298387           | 24324919           | 46.68      % |8.19           
+LFU          | 19328402           | 26294904           | 42.37      % |8.28           
+OPT          | 30370526           | 15252780           | 66.57      % |8.91           
+LRFU         | 18884973           | 26738333           | 41.39      % |6.10           
+LIRS         | 27280027           | 18343279           | 59.79      % |11.11          
+2Q           | 27742131           | 17881175           | 60.81      % |9.86           
+ARC          | 27708935           | 17914371           | 60.73      % |10.03          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 122625 (PERCENTAGE: 1%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 45623306 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 28141784           | 17481522           | 61.68      % |7.53           
+LFU-k        | 21786620           | 23836686           | 47.75      % |8.73           
+LFU          | 20706062           | 24917244           | 45.38      % |9.08           
+OPT          | 31101887           | 14521419           | 68.17      % |10.69          
+LRFU         | 19716782           | 25906524           | 43.22      % |6.71           
+LIRS         | 27905194           | 17718112           | 61.16      % |12.92          
+2Q           | 28481402           | 17141904           | 62.43      % |11.62          
+ARC          | 28384781           | 17238525           | 62.22      % |11.98          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 613126 (PERCENTAGE: 5%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 45623306 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 29915650           | 15707656           | 65.57      % |9.33           
+LFU-k        | 23612679           | 22010627           | 51.76      % |10.55          
+LFU          | 24417374           | 21205932           | 53.52      % |10.45          
+OPT          | 32908909           | 12714397           | 72.13      % |13.99          
+LRFU         | 22527020           | 23096286           | 49.38      % |8.50           
+LIRS         | 29707716           | 15915590           | 65.12      % |14.19          
+2Q           | 30016703           | 15606603           | 65.79      % |11.28          
+ARC          | 30092575           | 15530731           | 65.96      % |12.18          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 1226253 (PERCENTAGE: 10%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 45623306 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 30746091           | 14877215           | 67.39      % |10.23          
+LFU-k        | 25150478           | 20472828           | 55.13      % |11.91          
+LFU          | 26276511           | 19346795           | 57.59      % |11.45          
+OPT          | 33360769           | 12262537           | 73.12      % |14.64          
+LRFU         | 24356903           | 21266403           | 53.39      % |10.83          
+LIRS         | 30672908           | 14950398           | 67.23      % |14.92          
+2Q           | 30525022           | 15098284           | 66.91      % |11.73          
+ARC          | 31042868           | 14580438           | 68.04      % |13.30          
+************************************************************************
+------------------------------------------------------------------------
+ Analysis: meta_rnha.oracleGeneral.zst
+ Distinct Entry Calculation... 
+ 35040280 Distinct Entries Found!
+------------------------------------------------------------------------
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 17520 (PERCENTAGE: 0.05%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 96680668 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 30658049           | 66022619           | 31.71      % |6.90           
+LFU-k        | 14389177           | 82291491           | 14.88      % |18.81          
+LFU          | 9661786            | 87018882           | 9.99       % |20.74          
+OPT          | 38606879           | 58073789           | 39.93      % |17.97          
+LRFU         | 9455819            | 87224849           | 9.78       % |13.23          
+LIRS         | 29455977           | 67224691           | 30.47      % |24.89          
+2Q           | 31681467           | 64999201           | 32.77      % |20.74          
+ARC          | 31421427           | 65259241           | 32.50      % |21.46          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 175201 (PERCENTAGE: 0.5%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 96680668 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 36237620           | 60443048           | 37.48      % |20.42          
+LFU-k        | 17467286           | 79213382           | 18.07      % |26.99          
+LFU          | 16203862           | 80476806           | 16.76      % |27.54          
+OPT          | 46578300           | 50102368           | 48.18      % |32.58          
+LRFU         | 13924325           | 82756343           | 14.40      % |19.23          
+LIRS         | 36263166           | 60417502           | 37.51      % |32.46          
+2Q           | 37610984           | 59069684           | 38.90      % |27.65          
+ARC          | 37345998           | 59334670           | 38.63      % |29.29          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 350402 (PERCENTAGE: 1%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 96680668 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 38658063           | 58022605           | 39.99      % |21.74          
+LFU-k        | 19105585           | 77575083           | 19.76      % |28.67          
+LFU          | 19577070           | 77103598           | 20.25      % |28.75          
+OPT          | 49475661           | 47205007           | 51.17      % |36.66          
+LRFU         | 15467355           | 81213313           | 16.00      % |20.35          
+LIRS         | 38568488           | 58112180           | 39.89      % |34.23          
+2Q           | 40054250           | 56626418           | 41.43      % |28.24          
+ARC          | 39774211           | 56906457           | 41.14      % |30.31          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 1752014 (PERCENTAGE: 5%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 96680668 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 45327819           | 51352849           | 46.88      % |26.20          
+LFU-k        | 26300065           | 70380603           | 27.20      % |30.42          
+LFU          | 29828283           | 66852385           | 30.85      % |34.71          
+OPT          | 57283207           | 39397461           | 59.25      % |48.22          
+LRFU         | 23869096           | 72811572           | 24.69      % |27.67          
+LIRS         | 45853615           | 50827053           | 47.43      % |43.94          
+2Q           | 46811134           | 49869534           | 48.42      % |33.66          
+ARC          | 46436785           | 50243883           | 48.03      % |37.53          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 3504028 (PERCENTAGE: 10%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 96680668 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 48999386           | 47681282           | 50.68      % |31.01          
+LFU-k        | 31730631           | 64950037           | 32.82      % |30.50          
+LFU          | 37448506           | 59232162           | 38.73      % |35.25          
+OPT          | 60348369           | 36332299           | 62.42      % |50.35          
+LRFU         | 29888490           | 66792178           | 30.91      % |32.34          
+LIRS         | 50091192           | 46589476           | 51.81      % |49.42          
+2Q           | 49256380           | 47424288           | 50.95      % |35.88          
+ARC          | 50577569           | 46103099           | 52.31      % |43.31          
+************************************************************************
+------------------------------------------------------------------------
+ Analysis: meta_rprn.oracleGeneral.zst
+ Distinct Entry Calculation... 
+ 29030282 Distinct Entries Found!
+------------------------------------------------------------------------
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 14515 (PERCENTAGE: 0.05%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 88470732 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 34376261           | 54094471           | 38.86      % |6.54           
+LFU-k        | 19509723           | 68961009           | 22.05      % |14.54          
+LFU          | 15862935           | 72607797           | 17.93      % |15.81          
+OPT          | 41529106           | 46941626           | 46.94      % |14.41          
+LRFU         | 15249199           | 73221533           | 17.24      % |8.54           
+LIRS         | 33886998           | 54583734           | 38.30      % |19.79          
+2Q           | 35976735           | 52493997           | 40.67      % |15.17          
+ARC          | 35523421           | 52947311           | 40.15      % |17.44          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 145151 (PERCENTAGE: 0.5%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 88470732 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 39657073           | 48813659           | 44.83      % |17.24          
+LFU-k        | 22250397           | 66220335           | 25.15      % |21.18          
+LFU          | 20986300           | 67484432           | 23.72      % |21.62          
+OPT          | 47908001           | 40562731           | 54.15      % |26.03          
+LRFU         | 18779341           | 69691391           | 21.23      % |18.01          
+LIRS         | 40270254           | 48200478           | 45.52      % |31.57          
+2Q           | 41121562           | 47349170           | 46.48      % |28.93          
+ARC          | 40923039           | 47547693           | 46.26      % |28.34          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 290302 (PERCENTAGE: 1%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 88470732 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 41580031           | 46890701           | 47.00      % |18.40          
+LFU-k        | 23682803           | 64787929           | 26.77      % |22.61          
+LFU          | 23462841           | 65007891           | 26.52      % |23.43          
+OPT          | 50143489           | 38327243           | 56.68      % |30.23          
+LRFU         | 20462946           | 68007786           | 23.13      % |16.53          
+LIRS         | 42144544           | 46326188           | 47.64      % |28.62          
+2Q           | 42967336           | 45503396           | 48.57      % |24.48          
+ARC          | 42820655           | 45650077           | 48.40      % |25.13          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 1451514 (PERCENTAGE: 5%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 88470732 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 46790691           | 41680041           | 52.89      % |22.71          
+LFU-k        | 29210918           | 59259814           | 33.02      % |27.50          
+LFU          | 32619082           | 55851650           | 36.87      % |26.55          
+OPT          | 56224245           | 32246487           | 63.55      % |39.50          
+LRFU         | 27922956           | 60547776           | 31.56      % |24.87          
+LIRS         | 47405444           | 41065288           | 53.58      % |36.26          
+2Q           | 47568099           | 40902633           | 53.77      % |27.32          
+ARC          | 47877809           | 40592923           | 54.12      % |31.04          
+************************************************************************
+************************************************************************
+>>> RUN FOR CACHE CAPACITY: 2903028 (PERCENTAGE: 10%) <<<
+[1/3] Streaming and decompressing input trace file...
+Successfully preloaded 88470732 requests into shared memory layout.
+[2/3] Spawning 8 computational threads for simultaneous cache simulation...
+[3/3] Waiting for all simulations to finalize entries...
+
+**********************************************************************
+                       FINAL SIMULATION CACHE RESULTS OVERVIEW                    
+************************************************************************
+Algorithm    | Total Cache Hits   | Total Cache Misses | Hit Rate (%) | Time (Seconds) 
+------------------------------------------------------------------------
+LRU          | 49544252           | 38926480           | 56.00      % |27.34          
+LFU-k        | 33171754           | 55298978           | 37.49      % |28.58          
+LFU          | 38919910           | 49550822           | 43.99      % |30.47          
+OPT          | 58536498           | 29934234           | 66.16      % |40.84          
+LRFU         | 32121563           | 56349169           | 36.31      % |31.48          
+LIRS         | 50659505           | 37811227           | 57.26      % |40.56          
+2Q           | 49519090           | 38951642           | 55.97      % |30.54          
+ARC          | 50873235           | 37597497           | 57.50      % |35.04          
+************************************************************************
+************************************************************************
+Auto Grading completed succesfully!
+************************************************************************
