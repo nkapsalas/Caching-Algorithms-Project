@@ -1,6 +1,6 @@
 # Caching Algorithms Project
 
-A high-performance cache simulation framework written in C that implements and compares 8 different caching replacement algorithms. This project evaluates cache performance through parallel execution on real-world memory access traces.
+A high-performance cache simulation framework written in C that implements and compares 8 different caching replacement algorithms. This project evaluates cache performance through parallel execution on Carnegie-Mellon's standard trace library (https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/metaCDN/).
 
 ## Project Overview
 
@@ -152,12 +152,10 @@ These scripts process the `results.txt` file and generate comparative visualizat
 
 ## Key Features
 
-- ✅ **Parallel Execution** - All 8 algorithms run simultaneously using pthreads
-- ✅ **Memory Efficient** - Dynamic buffer allocation for trace streaming
-- ✅ **Accurate Timing** - High-resolution clock measurements via `clock_gettime()`
-- ✅ **Real-world Traces** - Support for actual memory access patterns
-- ✅ **Comprehensive Metrics** - Hit rate, miss count, and performance timing
-- ✅ **Optimal Algorithm Support** - Can simulate omniscient Belady algorithm with trace hints
+- **Parallel Execution** - All 8 algorithms run simultaneously using pthreads
+- **Memory Efficient** - Dynamic buffer allocation for trace streaming
+- **Speed Optimisations** - Offline decay factor calculation with hashing
+-  **Comprehensive Metrics** - Hit rate, miss count, and performance timing
 
 ## Configuration
 
@@ -184,19 +182,13 @@ These are included and require no external installation.
 - Thread-safe implementations ensure parallel algorithm independence
 - Each algorithm runs independently; no inter-algorithm communication occurs
 
-## Future Enhancements
-
-- [ ] Support for additional trace formats
-- [ ] Real-time visualization dashboard
-- [ ] Statistical significance testing
-- [ ] Configurable algorithm parameters from command-line
-- [ ] Support for object size variation in eviction decisions
-
 ## References
 
 - LRU: Cormen, Leiserson, Rivest, Stein - "Introduction to Algorithms"
 - LIRS: Song Jiang, Xiaodong Zhang - "LIRS: an efficient low inter-reference recency set replacement policy"
 - ARC: Nimrod Megiddo, Dharmendra S. Modha - "ARC: A Self-Tuning, Low Overhead Replacement Cache"
+- LRFU: Donghee Lee, Jongmoo Choi, Jong-Hun Kim, S.H. Noh, Sang Lyul Min, Yookun Cho
+        LRFU: a spectrum of policies that subsumes the least recently used and least frequently used policies
 - 2Q: Theodore Johnson, Dennis Shasha - "2Q: A Low Overhead High Performance Buffer Management Replacement Algorithm"
 
 ---
@@ -204,4 +196,3 @@ These are included and require no external installation.
 **Author:** nkapsalas  
 **Language:** C  
 **Build Tool:** Make  
-**License:** [Add your license here]
