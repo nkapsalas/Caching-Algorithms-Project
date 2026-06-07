@@ -265,8 +265,7 @@ int main(int argc, char *argv[]) {
     while (fread(&temporary_req, sizeof(request_t), 1, pipe_in) == 1) {
         if (total_requests >= buffer_capacity) {
             buffer_capacity *= 2;
-            
-            // Ασφαλής δέσμευση μνήμης
+  
             request_t *temp_ptr = (request_t *)realloc(trace_buffer, buffer_capacity * sizeof(request_t));
             if (temp_ptr == NULL) {
                 fprintf(stderr, "\n[FATAL ERROR] Out of Memory! Failed to allocate RAM for %llu requests.\n", buffer_capacity);
